@@ -5,144 +5,210 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Raymond's Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Raymond's Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="icon fa-arrow-alt-circle-left"></a>
-						<h1>Personal Projects</h1>
-						<!-- <p>Ipsum dolor sit amet nullam</p> -->
-					</header>
+<body class="is-preload">
 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a href="#NTTW" class="active">No Time To Weight</a></li>
-						<li><a href="#BWA">Budget Web App</a></li>
-						<li><a href="#SLA">Spotify-Lyrics App</a></li>
-					</ul>
-				</nav>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-				<!-- Main -->
-					<div id="main">
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="icon fa-arrow-alt-circle-left"></a>
+			<h1>Personal Projects</h1>
+			<!-- <p>Ipsum dolor sit amet nullam</p> -->
+		</header>
 
-						<!-- Content -->
-							<section id="NTTW" class="main">
-								<span class="image main"><img src="images/weight.jpg" alt="" /></span>
-								<h1>No Time To Weight</h1>
-								<p>No Time To Weight is a work-in-progress project that I am currently undertaking. The aim of the project is to provide a public, open-source way to track weight. This is something I designed myself to help me with my own weight goals but it can be used by anyone for any reason. I want to create an easy-to-use application that will chart your progress.</p>
-								<p>This project uses tools such as Express, EJS, Chart.js, SQLite, and Bootstrap. This project was also primary coded in JavaScript.</p>
-								<h2>Personal Goals</h2>
-								<p>The goal of this project is to familiarize myself with CSS frameworks such as Bootstrap. I also strive to set up another cloud-hosted web application to further increase my experience with providing service to the public.</p>
-								<!-- <span class="image secondary"><img src="images/default.jpg" alt="" /><img src="images/lyrics.jpg" alt="" /></span> -->
-								<ul class="actions special">
-									<li><a href="https://github.com/RayGuo357/no-time-to-weight" class="button primary">View Code</a></li>
-								</ul>
-								<!-- <h2>Tempus veroeros</h2>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#SUD" class="active">Sudoku!</a></li>
+				<li><a href="#NTTW">No Time To Weight</a></li>
+				<li><a href="#BWA">Budget Web App</a></li>
+				<li><a href="#SLA">Spotify-Lyrics App</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Content -->
+
+			<section id="SUD" class="main">
+				<span class="image main"><img src="images/sud/sud-gif.gif" alt="" /></span>
+				<h1>Sudoku!</h1>
+				<p>This web application is a recreation of a game that I play regularly built using the MERN stack. This project is a fairly normal version of sudoku however, I have created it using my own API
+					which is available to the public. My version of sudoku is also driven by the community as the only boards available to play are to be submitted through the 
+					application's built-in system for puzzle submissions. The server will run checks to confirm it's a valid board before being added to the database along with
+					the solution attached to the data entry. The solution was found using a backtracking algorithm which would guess the number and falling back when it creates
+					an invalid board, repeating until the board is solved.
+				</p>
+				<p>This project uses tools such as Express, MongoDB, and React. This project was also primarily coded
+					in JavaScript.</p>
+				<h2>Personal Goals</h2>
+				<p>The goal of this project was to recreate a game that I have always enjoyed playing along with providing the opportunity to create a responsive website. 
+					This was one of the projects in which I have made a responsive website and the game should be playable on most major mobile devices as well as a typical computer screen.
+					I also wanted to create an up-to-date application that is accessible to anyone via cloud-hosted services. This was also my first time using the complete
+					MERN stack.
+				</p>
+				<span class="image secondary"><img src="images/sud/sudoku.png" alt="" /><img src="images/sud/api.png"
+						alt="" /></span>
+				<ul class="actions special">
+					<li><a href="https://github.com/RayGuo357/Sudoku-API" class="button primary">View API Code</a></li>
+					<li><a href="https://sudoku-react-weld.vercel.app/" class="button secondary">View Game</a></li>
+					<li><a href="https://github.com/RayGuo357/Sudoku-React" class="button primary">View React Code</a></li>
+				</ul>
+			</section>
+
+			<section id="NTTW" class="main">
+				<span class="image main"><img src="images/nttw/weight.jpg" alt="" /></span>
+				<h1>No Time To Weight</h1>
+				<p>No Time To Weight is a work-in-progress project that I am currently undertaking. The aim of the
+					project is to provide a public, open-source way to track weight. This is something I designed myself
+					to help me with my own weight goals but it can be used by anyone for any reason. I want to create an
+					easy-to-use application that will chart your progress.</p>
+				<p>This project uses tools such as Express, EJS, Chart.js, SQLite, and Bootstrap. This project was also
+					primary coded in JavaScript.</p>
+				<h2>Personal Goals</h2>
+				<p>The goal of this project is to familiarize myself with CSS frameworks such as Bootstrap. I also
+					strive to set up another cloud-hosted web application to further increase my experience with
+					providing service to the public.</p>
+				<!-- <span class="image secondary"><img src="images/default.jpg" alt="" /><img src="images/lyrics.jpg" alt="" /></span> -->
+				<ul class="actions special">
+					<li><a href="https://github.com/RayGuo357/no-time-to-weight" class="button primary">View Code</a>
+					</li>
+				</ul>
+				<!-- <h2>Tempus veroeros</h2>
 								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p> -->
-							</section>
+			</section>
 
-							<section id="BWA" class="main">
-								<span class="image main"><img src="images/bwa-gif.gif" alt="" /></span>
-								<h1>Budget Web App</h1>
-								<p>This web application was designed to be hosted in a Docker container, a server, or even a small personal computer such as a Raspberry Pi. I created this project with the thought of making a simplified version of an Excel spreadsheet. This project allows users to create as many tables as they'd like, with whatever categories they need. As entries are added to each table, the graph will automatically update the chart to help visualize avaiable balances and spending habits. The app also automatically saves with every update and loads the current month's spendings whenever the page is visited. The files for previous and current months are then saved locally and can be accessed at any point.</p>
-								<p>This project uses tools such as Express, React, and Chart.js. This project was also primarily coded in TypeScript along with JavaScript.</p>
-								<h2>Personal Goals</h2>
-								<p>Some personal goals for this project was to refamiliarize myself with TypeScript as well as refining my skills with React.</p>
-								<span class="image secondary"><img src="images/default.jpg" alt="" /><img src="images/bwa-add.jpg" alt="" /></span>
-								<ul class="actions special">
-									<li><a href="https://github.com/RayGuo357/budget-web-app" class="button primary">View Code</a></li>
+			<section id="BWA" class="main">
+				<span class="image main"><img src="images/bwa/bwa-gif.gif" alt="" /></span>
+				<h1>Budget Web App</h1>
+				<p>This web application was designed to be hosted in a Docker container, a server, or even a small
+					personal computer such as a Raspberry Pi. I created this project with the thought of making a
+					simplified version of an Excel spreadsheet. This project allows users to create as many tables as
+					they'd like, with whatever categories they need. As entries are added to each table, the graph will
+					automatically update the chart to help visualize avaiable balances and spending habits. The app also
+					automatically saves with every update and loads the current month's spendings whenever the page is
+					visited. The files for previous and current months are then saved locally and can be accessed at any
+					point.</p>
+				<p>This project uses tools such as Express, React, and Chart.js. This project was also primarily coded
+					in TypeScript along with JavaScript.</p>
+				<h2>Personal Goals</h2>
+				<p>Some personal goals for this project was to refamiliarize myself with TypeScript as well as refining
+					my skills with React.</p>
+				<span class="image secondary"><img src="images/bwa/default.jpg" alt="" /><img src="images/bwa/bwa-add.jpg"
+						alt="" /></span>
+				<ul class="actions special">
+					<li><a href="https://github.com/RayGuo357/budget-web-app" class="button primary">View Code</a></li>
+				</ul>
+			</section>
+
+			<section id="SLA" class="main">
+				<span class="image main"><img src="images/sla/sla-gif.gif" alt="" /></span>
+				<h1>Spotify-Lyrics App</h1>
+				<p>The Spotify-Lyrics App was one of my first major coding projects that I was heavily interested in. My
+					primary motivation for taking on this project was when Spotify had initially removed lyrics from
+					their songs and so I wanted to create something to fill that void (even though this project was
+					eventually made obsolete with Spotify's reintegration of lyrics). I also had the desire to use
+					public APIs and was happy when I found out that both Spotify and Genius offered the use of their
+					APIs for free. The goal of this project was to design an alternate web player version of Spotfiy's
+					official web player and application, except with the reimplementation of lyrics for the current song
+					that's playing. This was done by utilizing both Spotify and Genius's API to find the current song
+					that was playing and pulling the lyrics from the latter.</p>
+				<p>This project uses tools such as Express, React, Spotify's API, and Genius's API. This project was
+					also primary coded in JavaScript.</p>
+				<h2>Personal Goals</h2>
+				<p>A big personal goal for me was to complete my first big personal project. This was also my first time
+					using React, Express, and public APIs.</p>
+				<span class="image secondary"><img src="images/sla/sla-login.jpg" alt="" /><img
+						src="images/sla/lyrics.jpg" alt="" /></span>
+				<ul class="actions special">
+					<li><a href="https://github.com/RayGuo357/SpotifyLyrics" class="button primary">View Code</a></li>
+				</ul>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<h2>Interested?</h2>
+				<p>Reach out with this form to get into direct contact with me! I'm always interested to hear
+					criticisms, suggestions, offers, or just talk code.</p>
+			</section>
+			<section>
+				<h2>Contact Me</h2>
+				<section>
+					<form name="contact" method="post" data-netlify="true">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-low" name="priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-normal" name="priority">
+								<label for="demo-priority-normal">Normal</label>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-high" name="priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="demo-message" placeholder="Enter your message"
+									rows="6"></textarea>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="demo-human" name="human" required>
+								<label for="demo-human">Not a robot</label>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
 								</ul>
-							</section>
+							</div>
+						</div>
+					</form>
+				</section>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/raymond-matthew-guo/"
+							class="icon brands fa-brands fa-linkedin-in alt"><span class="label">LinkedIn</span></a>
+					</li>
+					<li><a href="https://github.com/RayGuo357" class="icon brands fa-github alt"><span
+								class="label">GitHub</span></a></li>
+					<!-- <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
+				</ul>
+			</section>
+			<p class="copyright">&copy; 2022 Raymond Guo. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
 
-							<section id="SLA" class="main">
-								<span class="image main"><img src="images/sla-gif.gif" alt="" /></span>
-								<h1>Spotify-Lyrics App</h1>
-								<p>The Spotify-Lyrics App was one of my first major coding projects that I was heavily interested in. My primary motivation for taking on this project was when Spotify had initially removed lyrics from their songs and so I wanted to create something to fill that void (even though this project was eventually made obsolete with Spotify's reintegration of lyrics). I also had the desire to use public APIs and was happy when I found out that both Spotify and Genius offered the use of their APIs for free. The goal of this project was to design an alternate web player version of Spotfiy's official web player and application, except with the reimplementation of lyrics for the current song that's playing. This was done by utilizing both Spotify and Genius's API to find the current song that was playing and pulling the lyrics from the latter.</p>
-								<p>This project uses tools such as Express, React, Spotify's API, and Genius's API. This project was also primary coded in JavaScript.</p>
-								<h2>Personal Goals</h2>
-								<p>A big personal goal for me was to complete my first big personal project. This was also my first time using React, Express, and public APIs.</p>
-								<span class="image secondary"><img src="images/sla-login.jpg" alt="" /><img src="images/lyrics.jpg" alt="" /></span>
-								<ul class="actions special">
-									<li><a href="https://github.com/RayGuo357/SpotifyLyrics" class="button primary">View Code</a></li>
-								</ul>
-							</section>
-					</div>
+	</div>
 
-				<!-- Footer -->
-				<footer id="footer">
-					<section>
-						<h2>Interested?</h2>
-						<p>Reach out with this form to get into direct contact with me! I'm always interested to hear criticisms, suggestions, offers, or just talk code.</p>
-					</section>
-					<section>
-						<h2>Contact Me</h2>
-						<section>
-							<form name="contact" method="post" data-netlify="true">
-								<div class="row gtr-uniform">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="priority" checked>
-										<label for="demo-priority-low">Low</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="priority">
-										<label for="demo-priority-normal">Normal</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="priority">
-										<label for="demo-priority-high">High</label>
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="human" required>
-										<label for="demo-human">Not a robot</label>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/raymond-matthew-guo/" class="icon brands fa-brands fa-linkedin-in alt"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/RayGuo357" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							<!-- <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
-						</ul>
-					</section>
-					<p class="copyright">&copy; 2022 Raymond Guo. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-				</footer>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-			</div>
+</body>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
